@@ -1,7 +1,8 @@
 <?php
 # test.php
 
-class Home {
+class Home
+{
     /**
      * 定义一个变量 用于apiGroup 因为不支持直接输入中文
      * @apiDefine test 测试
@@ -20,7 +21,8 @@ class Home {
      * 　　res1:"test"
      * }
      */
-    public function test(){
+    public function test()
+    {
 
     }
 }
