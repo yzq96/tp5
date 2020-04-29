@@ -14,6 +14,9 @@ Route::get('think', function () {
 });
 
 Route::get('hello/:name', 'index/hello');
+Route::get('now',function (){
+    return date('Ymd His');
+});
 
 return [
 
